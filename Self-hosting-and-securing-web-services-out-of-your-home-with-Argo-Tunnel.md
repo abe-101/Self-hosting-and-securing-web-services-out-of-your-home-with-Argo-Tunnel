@@ -115,7 +115,7 @@ Just insure the last line is `- service: http_status:404`.
 Now, we need to setup a CNAME for the TLD and any services we want. The `cloudflared` app handles this easily. The format of the command is:
 
 ```
- cloudflared tunnel route dns <UUID or NAME> <hostname> 
+$ cloudflared tunnel route dns <UUID or NAME> <hostname> 
 ```
 
 Do this for each service you want (i.e., subdomain1, subdomain2, etc) hosted through ARGO.
@@ -166,31 +166,31 @@ Check ownership with `ls -la`, should be `root:root`.
 Now we need to fix the config file, replace the line:
 
 ```
-credentials-file: /home/username/.cloudflared/<tunnel-UUID>.json
+$ credentials-file: /home/username/.cloudflared/<tunnel-UUID>.json
 ```
 
 with
 
 ```
-credentials-file: /etc/cloudflared/<tunnel-UUID>.json
+$ credentials-file: /etc/cloudflared/<tunnel-UUID>.json
 ```
 
 Then, start the system service with the following command:
 
 ```
-sudo systemctl start cloudflared
+$ sudo systemctl start cloudflared
 ```
 
 And start on boot with:
 
 ```
-sudo systemctl enable cloudflared
+$ sudo systemctl enable cloudflared
 ```
 
 Check the status with:
 
 ```
-sudo systemctl status cloudflared
+$ sudo systemctl status cloudflared
 ```
 
 The output should be similar to that shown in Step 7 above. You can safely delete your `~/.cloudflared` directory.
