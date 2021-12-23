@@ -1,5 +1,3 @@
-[Skip to content](#content)
-
 [<img width="250" height="100" src="https://habet.dev/wp-content/uploads/2021/12/Screen-Capture_select-area_20211219074622.gif"/>](https://habet.dev/)
 
 
@@ -224,6 +222,6 @@ Categorized as [Self Hosted](https://habet.dev/category/self-hosted/), [Technolo
 - [Tumblr](https://abe-101.tumblr.com/)
 - [HN](https://news.ycombinator.com/user?id=abe-101)
 
-[![Abe's Portfolio](https://habet.dev/wp-content/uploads/2021/12/Screen-Capture_select-area_20211219074622.gif)
+![Abe's Portfolio](https://habet.dev/wp-content/uploads/2021/12/Screen-Capture_select-area_20211219074622.gif)
 
 Proudly hosted under the computer desk on a [Raspberry Pi!](https://raspberrypi.org/).
